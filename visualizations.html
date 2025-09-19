@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColorAid Charts - Visualizations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="nav-title">ColorAid Charts</h1>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="visualizations.html" class="nav-link active">Visualizations</a></li>
+        <li><a href="resources.html" class="nav-link">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Visualizations Page Content -->
+  <main class="page active">
+    <div class="container">
+      <h1 class="page-title">Data Visualizations</h1>
+      <p class="page-subtitle">Charts designed with accessibility in mind</p>
+
+      <div class="charts-grid">
+        <!-- Bar Chart -->
+        <div class="chart-container">
+          <h3 class="chart-title">Technology Usage Survey</h3>
+          <div class="bar-chart">
+            <div class="bar-item">
+              <span class="bar-label">JavaScript</span>
+              <div class="bar-container">
+                <div class="bar bar-primary" style="width: 85%;"></div>
+                <span class="bar-value">85</span>
+              </div>
+            </div>
+            <div class="bar-item">
+              <span class="bar-label">Python</span>
+              <div class="bar-container">
+                <div class="bar bar-secondary" style="width: 72%;"></div>
+                <span class="bar-value">72</span>
+              </div>
+            </div>
+            <div class="bar-item">
+              <span class="bar-label">Java</span>
+              <div class="bar-container">
+                <div class="bar bar-tertiary" style="width: 58%;"></div>
+                <span class="bar-value">58</span>
+              </div>
+            </div>
+            <div class="bar-item">
+              <span class="bar-label">C++</span>
+              <div class="bar-container">
+                <div class="bar bar-accent" style="width: 43%;"></div>
+                <span class="bar-value">43</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Market Share Chart -->
+        <div class="chart-container">
+          <h3 class="chart-title">Market Share Distribution</h3>
+          <div class="pie-chart">
+            <div class="pie-item">
+              <div class="pie-label"><span>Chrome</span><span>45.2%</span></div>
+              <div class="pie-bar">
+                <div class="pie-fill bar-primary pattern-dots" style="width: 45.2%;"></div>
+              </div>
+            </div>
+            <div class="pie-item">
+              <div class="pie-label"><span>Firefox</span><span>28.7%</span></div>
+              <div class="pie-bar">
+                <div class="pie-fill bar-secondary pattern-lines" style="width: 28.7%;"></div>
+              </div>
+            </div>
+            <div class="pie-item">
+              <div class="pie-label"><span>Safari</span><span>18.3%</span></div>
+              <div class="pie-bar">
+                <div class="pie-fill bar-tertiary pattern-grid" style="width: 18.3%;"></div>
+              </div>
+            </div>
+            <div class="pie-item">
+              <div class="pie-label"><span>Edge</span><span>7.8%</span></div>
+              <div class="pie-bar">
+                <div class="pie-fill bar-accent" style="width: 7.8%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: Pie Chart (circular) -->
+        <div class="chart-container">
+          <h3 class="chart-title">Device Usage Breakdown</h3>
+          <div class="circle-pie" 
+     style="--p1:40; --p2:30; --p3:20; --p4:10;
+            --c1: var(--color-primary);
+            --c2: var(--color-secondary);
+            --c3: var(--color-tertiary);
+            --c4: var(--color-accent);">
+            <div class="slice slice1"></div>
+            <div class="slice slice2"></div>
+            <div class="slice slice3"></div>
+            <div class="slice slice4"></div>
+          </div>
+          <div class="chart-legend">
+            <div class="legend-item"><div class="legend-marker marker-primary pattern-dots"></div><span>Mobile (40%)</span></div>
+            <div class="legend-item"><div class="legend-marker marker-secondary pattern-lines"></div><span>Laptop (30%)</span></div>
+            <div class="legend-item"><div class="legend-marker marker-tertiary pattern-grid"></div><span>Tablet (20%)</span></div>
+            <div class="legend-item"><div class="legend-marker marker-accent"></div><span>Desktop (10%)</span></div>
+          </div>
+        </div>
+
+        <!-- NEW: Histogram -->
+        <div class="chart-container">
+          <h3 class="chart-title">Age Distribution of Users</h3>
+          <div class="histogram">
+            <div class="hist-bar bar-primary" style="height: 60%;" title="18-24: 60%"></div>
+            <div class="hist-bar bar-secondary" style="height: 80%;" title="25-34: 80%"></div>
+            <div class="hist-bar bar-tertiary" style="height: 50%;" title="35-44: 50%"></div>
+            <div class="hist-bar bar-accent" style="height: 30%;" title="45-54: 30%"></div>
+          </div>
+          <div class="hist-labels">
+            <span>18-24</span>
+            <span>25-34</span>
+            <span>35-44</span>
+            <span>45-54</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>📧 Contact us: <a href="mailto:info@ColorAidcharts.com">info@ColorAidcharts.com</a></p>
+      <p>© 2025 ColorAid Charts. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
