@@ -1,4 +1,4 @@
-<img width="754" height="812" alt="image" src="https://github.com/user-attachments/assets/7fc5108a-ebc3-419f-af6f-7cc2f8ce2de1" /># ColorAid Charts - Accessible Data Visualization
+# ColorAid Charts - Accessible Data Visualization
 
 A comprehensive web application designed specifically for colorblind users, featuring accessible data visualizations with high contrast colors, pattern-based legends, and inclusive design principles.
 
@@ -51,8 +51,6 @@ https://bhuttashinigami.github.io/ColorAid/
 - **Tooltip Information**: Additional context for chart elements
 
 
-## LIGHTHOUSE
-
 
 ##  SEO/Performance Enhancements
 
@@ -75,23 +73,9 @@ https://bhuttashinigami.github.io/ColorAid/
 - **Cross-browser Compatibility**: Modern CSS with fallbacks
 
 ##  Lighthouse Performance Metrics
+<img width="754" height="812" alt="image" src="https://github.com/user-attachments/assets/7fc5108a-ebc3-419f-af6f-7cc2f8ce2de1" />
 
-### Before Optimization
-*Note: Since this is a new implementation, baseline metrics would typically show:*
-- **Performance**: ~85-90 (due to minimal assets)
-- **Accessibility**: ~95-100 (built with accessibility in mind)
-- **Best Practices**: ~90-95 (clean code structure)
-- **SEO**: ~85-90 (semantic HTML structure)
-
-### After Implementation
-- **Performance**: 95+ (optimized CSS, no external dependencies)
-- **Accessibility**: 100 (WCAG AA compliant design)
-- **Best Practices**: 100 (modern web standards)
-- **SEO**: 95+ (semantic structure and meta tags)
-
-*Lighthouse screenshots would be included here showing the before/after comparison*
-
-## 🛠 Technical Implementation
+## Technical Implementation
 
 ### File Structure
 ```
