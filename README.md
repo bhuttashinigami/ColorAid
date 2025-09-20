@@ -2,7 +2,7 @@
 
 A comprehensive web application designed specifically for colorblind users, featuring accessible data visualizations with high contrast colors, pattern-based legends, and inclusive design principles.
 
-## 🚀 Features Implemented
+## Features Implemented
 
 ### Core Functionality
 - **Multi-page Navigation**: Clean, responsive navigation between Home, Visualizations, and Resources pages
@@ -22,7 +22,7 @@ A comprehensive web application designed specifically for colorblind users, feat
 - **High Contrast Design**: WCAG AA compliant contrast ratios
 - **Consistent Typography**: System font stack for optimal readability
 
-## ♿ Accessibility Improvements
+##  Accessibility Improvements
 
 ### Color Vision Accessibility
 - **Colorblind-Safe Color Palette**: 
@@ -46,7 +46,7 @@ A comprehensive web application designed specifically for colorblind users, feat
 - **Pattern Recognition**: Multiple visual cues beyond color for data interpretation
 - **Tooltip Information**: Additional context for chart elements
 
-## 🔍 SEO/Performance Enhancements
+##  SEO/Performance Enhancements
 
 ### Technical SEO
 - **Semantic HTML5**: Proper document structure with meaningful elements
@@ -66,7 +66,7 @@ A comprehensive web application designed specifically for colorblind users, feat
 - **Print Optimization**: Dedicated print styles for better document output
 - **Cross-browser Compatibility**: Modern CSS with fallbacks
 
-## 📊 Lighthouse Performance Metrics
+##  Lighthouse Performance Metrics
 
 ### Before Optimization
 *Note: Since this is a new implementation, baseline metrics would typically show:*
@@ -83,11 +83,11 @@ A comprehensive web application designed specifically for colorblind users, feat
 
 *Lighthouse screenshots would be included here showing the before/after comparison*
 
-## 🛠️ Technical Implementation
+## 🛠 Technical Implementation
 
 ### File Structure
 ```
-HCI_ASS1_test/
+ColorAid Charts/
 ├── index.html          # Home page with feature overview
 ├── visualizations.html # Interactive charts and data displays
 ├── resources.html      # Educational content and guidelines
@@ -107,7 +107,7 @@ HCI_ASS1_test/
 - Safari 12+
 - Edge 79+
 
-## 🎯 Design Principles
+##  Design Principles
 
 ### Accessibility First
 - Every design decision prioritizes accessibility
@@ -127,7 +127,7 @@ HCI_ASS1_test/
 - Optimized for both desktop and mobile devices
 - Print-friendly output
 
-## 📚 Educational Resources
+##  Educational Resources
 
 The Resources page includes:
 - **Color Blindness Types**: Detailed explanations of different vision deficiencies
@@ -135,7 +135,7 @@ The Resources page includes:
 - **Color Palette Documentation**: Explanation of the chosen color system
 - **Tool Recommendations**: Links to accessibility testing tools
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone or download the project files
 2. Open `index.html` in a modern web browser
@@ -143,7 +143,7 @@ The Resources page includes:
 4. Test accessibility features with keyboard navigation
 5. Try printing the pages to see print-optimized layouts
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 - Interactive chart animations
 - Data export functionality
@@ -151,11 +151,11 @@ The Resources page includes:
 - User preference settings for pattern styles
 - Integration with screen reader testing tools
 
-## 📄 License
+##  License
 
 © 2025 ColorAid Charts. All rights reserved.
 
-## 📧 Contact
+##  Contact
 
 For questions or feedback: info@ColorAidcharts.com
 
