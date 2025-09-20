@@ -556,3 +556,93 @@ body {
         break-inside: avoid;
     }
 }
+
+/* Extra styles for About and Contact pages */
+
+.about-article {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-section {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 2px solid var(--border);
+}
+
+.highlight {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.info-box {
+  background: var(--muted);
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 2px dashed var(--secondary);
+}
+
+.styled-btn {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.styled-btn:hover {
+  background-color: var(--primary-light);
+  transform: scale(1.05);
+}
+
+.reset-btn {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+}
+
+.reset-btn:hover {
+  background-color: var(--secondary-light);
+}
+
+.demo-text {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--muted-foreground);
+}
+
+/* Contact Form */
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+  background: var(--card);
+  padding: 2rem;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.contact-form input,
+.contact-form button {
+  padding: 0.75rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.download-link {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
