@@ -396,6 +396,11 @@ body {
     border-bottom: none;
 }
 
+.resource-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Color palette */
 .color-palette {
     display: grid;
@@ -614,6 +619,62 @@ body {
   margin-top: 1rem;
   font-size: 1rem;
   color: var(--muted-foreground);
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;     
+  object-fit: cover;       
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Team emails */
+.team-emails {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.team-emails li {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.team-emails a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.team-emails a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive: stack images on small screens */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr; 
+  }
 }
 
 /* Contact Form */
