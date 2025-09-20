@@ -1,6 +1,10 @@
-# ColorAid Charts - Accessible Data Visualization
+<img width="754" height="812" alt="image" src="https://github.com/user-attachments/assets/7fc5108a-ebc3-419f-af6f-7cc2f8ce2de1" /># ColorAid Charts - Accessible Data Visualization
 
 A comprehensive web application designed specifically for colorblind users, featuring accessible data visualizations with high contrast colors, pattern-based legends, and inclusive design principles.
+
+## Link To Website
+
+https://bhuttashinigami.github.io/ColorAid/
 
 ## Features Implemented
 
@@ -45,6 +49,10 @@ A comprehensive web application designed specifically for colorblind users, feat
 - **Clear Visual Hierarchy**: Consistent spacing and typography scales
 - **Pattern Recognition**: Multiple visual cues beyond color for data interpretation
 - **Tooltip Information**: Additional context for chart elements
+
+
+## LIGHTHOUSE
+
 
 ##  SEO/Performance Enhancements
 
