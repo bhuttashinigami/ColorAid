@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.clarity.ms; img-src 'self' data: https://*.clarity.ms; connect-src 'self' https://*.clarity.ms; style-src 'self' 'unsafe-inline';
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.clarity.ms https://www.clarity.ms; img-src 'self' data: https://*.clarity.ms https://www.clarity.ms https://*.bing.com; connect-src 'self' https://*.clarity.ms https://www.clarity.ms https://*.bing.com; style-src 'self' 'unsafe-inline';
