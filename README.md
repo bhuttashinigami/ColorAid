@@ -6,6 +6,10 @@ A comprehensive web application designed specifically for colorblind users, feat
 
 https://bhuttashinigami.github.io/ColorAid/
 
+## Figma Desig Link
+
+https://www.figma.com/design/2yfy1TAYmWP87y3MpUohgs/ColorAid?node-id=0-1&p=f&t=1VEIPLOK4q88RYWw-0
+
 ## Features Implemented
 
 ### Core Functionality
